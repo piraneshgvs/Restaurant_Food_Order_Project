@@ -1,0 +1,75 @@
+.navbar {
+  z-index: 1;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:  #FFD801;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float:left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.navbar #logout{
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+table {
+ position: relative;
+    right: -430px;
+  
+}
+td{
+	font-size:20px;
+}
+.Error{
+	text-align:center;
+	color:darkgreen;
+	font-size:160%;
+}
+
+
+table,th, td {
+  text-align: left;
+  padding: 16px;
+  height:35px;
+   border: 2px solid black;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+body{
+	background-image:url("../images/Menubg1.jpg");
+	background-size:cover;
+	
+}
+

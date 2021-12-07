@@ -1,0 +1,42 @@
+.place {
+  z-index: 1;
+}
+.bill{
+	text-align:right;
+	position:relative;
+	right:-600px;
+	font-size:160%;
+}
+.No{
+	font-size:160%;
+}
+.place{
+ overflow: hidden;
+  background-color:pink;
+  position: absolute;
+  bottom:0;
+  width: 100%;
+}
+.heading{
+	padding:50px;
+	text-align:center;
+	color:green;
+	font-size:25px;
+}
+#view{
+   
+   position: fixed; 
+   top: 80px; 
+   margin-left:auto;
+   margin-right: auto;
+   bottom:140px; 
+   overflow: auto; 
+   width:100%;
+   padding-left:20px;
+ }
+.error{
+	text-align:center;
+	color:red;
+	font-size:160%;
+}
+
