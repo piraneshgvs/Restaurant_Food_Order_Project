@@ -64,9 +64,9 @@ public class AdminController {
 	}
 	
 	@RequestMapping(value="/item/delete/{id}")
-	public String removeFooditem(@PathVariable("id") int ids) {
+	public String removeFooditem(@PathVariable("id") int id) {
 		
-		inventaroyDAO.deleteFooditem(ids);
+		inventaroyDAO.deleteFooditem(id);
 		
 		return "redirect:/inventoryform";
 	}
