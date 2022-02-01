@@ -54,7 +54,7 @@ Tables:
 4.user DDL
 
   CREATE TABLE `user` (
-       `user_id` varchar(45) NOT NULL,
+      `user_id` varchar(45) NOT NULL,
       `phonenumber` varchar(13) NOT NULL,
       `feedback` varchar(255) DEFAULT NULL,
       `time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -63,4 +63,4 @@ Tables:
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+Happy coding
